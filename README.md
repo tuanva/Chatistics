@@ -1,6 +1,6 @@
 # Chatistics
 
-**Python 3 scripts to convert chat logs from various messaging platforms into Panda DataFrames.**
+**Python 3 scripts to convert chat logs from various messaging platforms into Pandas DataFrames.**
 Can also generate histograms and word clouds from the chat logs.
 
 <p align="center">
@@ -82,21 +82,11 @@ The Telegram API works differently: you will first need to setup Chatistics, the
 
 ## 2. Setup Chatistics
 
-First, install the required Python packages:
-
-**Use conda (recommended)**
+First, install the required Python packages using conda:
 
 ```
 conda env create -f environment.yml
 conda activate chatistics
-```
-
-**Or virtualenv**
-
-```
-virtualenv chatistics
-source chatistics/bin/activate
-pip install -r requirements.txt
 ```
 
 You can now parse the messages by using the command `python parse.py <platform> <arguments>`.
@@ -217,13 +207,13 @@ Pull requests are welcome!
 
 ## Social medias
 
-[HackerNews '20](https://news.ycombinator.com/item?id=22069699)
+- [HackerNews '20](https://news.ycombinator.com/item?id=22069699)
 
-[/r/MachineLearning '20](https://www.reddit.com/r/MachineLearning/comments/epi628/p_chatistics_python_scripts_to_turn_your/)
+- [/r/MachineLearning '20](https://www.reddit.com/r/MachineLearning/comments/epi628/p_chatistics_python_scripts_to_turn_your/)
 
-[/r/datascience '18](https://www.reddit.com/r/datascience/comments/7vvpbl/chatistics_python_scripts_to_turn_your_messenger/)
+- [/r/datascience '18](https://www.reddit.com/r/datascience/comments/7vvpbl/chatistics_python_scripts_to_turn_your_messenger/)
 
-[/r/MachineLearning '18](https://www.reddit.com/r/MachineLearning/comments/7s1d2a/p_chatistics_python_scripts_to_turn_your/)
+- [/r/MachineLearning '18](https://www.reddit.com/r/MachineLearning/comments/7s1d2a/p_chatistics_python_scripts_to_turn_your/)
 
 ## Projects using Chatistics
 
